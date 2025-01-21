@@ -6,7 +6,7 @@ const TaskItem = ({ task }) => {
 
   return (
     <div>
-      <h2>{task.title}</h2>
+      <h4>{task.title}</h4>
       <p>{task.description}</p>
       <span>Status: {task.status}</span> | <span>Priority: {task.priority}</span>
       

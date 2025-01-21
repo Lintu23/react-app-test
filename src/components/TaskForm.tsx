@@ -37,11 +37,13 @@ const TaskForm = () => {
           onChange={(e) => setTaskTitle(e.target.value)}
           required
           placeholder="Task Title"
+          style={{ padding: '8px', width: '120px' }}
         />
         <textarea
           value={taskDescription}
           onChange={(e) => setTaskDescription(e.target.value)}
           placeholder="Task Description"
+          style={{ padding: '8px', width: '160px' }}
         />
         <select
           value={priority}

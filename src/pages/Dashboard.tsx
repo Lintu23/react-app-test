@@ -16,7 +16,8 @@ const Dashboard = () => {
       <h2>Task Search</h2>
       <SearchBar onSearch={setSearchQuery} />
       <FilterDropdown onFilter={setSelectedStatus} />
-      <br/> 
+      <br/> <br/> 
+      <h2>Task List</h2>
       <TaskList searchQuery={searchQuery} selectedStatus={selectedStatus} />
     </div>
   );
